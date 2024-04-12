@@ -15,10 +15,10 @@ def hello_hbnb():
 
 
 @app.route('/hbtn', strict_slashes=False)
-def hbtn():
-    """ Display "HBTN"
+def hbnb():
+    """ Display "HBNB"
     """
-    return "HBTN"
+    return "HBNB"
 
 
 if __name__ == "__main__":
